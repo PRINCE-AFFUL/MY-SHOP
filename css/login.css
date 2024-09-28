@@ -39,3 +39,175 @@ body{
 a{
     text-decoration: none;
 }
+
+
+
+
+
+
+
+
+
+  /* MEDIA QERIES */
+  @media (max-width: 480px) {
+    /* styles for small mobile devices */
+    body{
+
+
+
+    }
+form{
+    background-color: bisque;
+    margin-left: 10%;
+    width: 15rem;
+    height: 25rem;
+}
+input{
+    width: 10rem;
+}
+.btn{
+    width: 10rem;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+ 
+}
+    }
+    
+  
+  
+  
+  /* - Medium (481px - 640px): */
+  
+  @media (min-width: 481px) and (max-width: 640px) {
+    /* styles for medium mobile devices */
+    body{
+ 
+    }
+    form{
+        background-color: lightblue;
+        margin-left: 18%;
+    width: 20rem;
+    }
+    input{
+       
+    }
+    .btn{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+  }
+  
+  
+  /* - Large (641px - 768px): */
+  
+  @media (min-width: 641px) and (max-width: 768px) {
+    /* styles for large mobile devices */
+    body{
+ 
+    }
+    form{
+        background-color: aqua;
+        margin-left: 25%;
+    width: 20rem;
+    }
+    input{
+       
+    }
+    .btn{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+  
+  }
+  
+  
+  /* Tablets
+  
+  - Small (769px - 960px): */
+  
+  @media (min-width: 769px) and (max-width: 960px) {
+    /* styles for small tablets */
+    body{
+
+    }
+
+    form{
+        background-color: pink;
+        margin-left: 30%;
+    width: 20rem;
+    }
+    input{
+       
+    }
+    .btn{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+  }
+  
+  
+  /* - Medium (961px - 1024px): */
+  
+  @media (min-width: 961px) and (max-width: 1024px) {
+    /* styles for medium tablets */
+    body{
+
+    }
+    form{
+        background-color: orange;
+        margin-left: 33%;
+    width: 20rem;
+    }
+    input{
+       
+    }
+    .btn{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+  }
+  
+  
+  /* - Large (1025px - 1280px): */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    /* styles for large tablets */
+    body{
+     
+    }
+    form{
+        background-color: purple;
+        margin-left: 33%;
+    width: 20rem;
+    }
+    input{
+       
+    }
+    .btn{
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+  }
